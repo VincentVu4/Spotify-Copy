@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html>
+    <link rel = "stylesheet" href = "styles/my-playlist.css">
+    <link rel = "stylesheet" href = "styles/your-top-mixes.css">
+    <link rel = "stylesheet" href = "styles/general.css">
+    <link rel = "stylesheet" href = "styles/home-search.css">
+    <link rel = "stylesheet" href = "styles/library-header.css">
+    <link rel = "stylesheet" href = "styles/library-playlists.css">
+    <link rel = "stylesheet" href = "styles/header.css">
+    <link rel = "stylesheet" href = "styles/footer.css">
+    <link rel ="preconnect" href="https://fonts.googleapis.com">
+    
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Flow+Circular&family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <head>
+        <title>Spotify</title>
+    </head>
+
+    <body>
+        <div class = "footer-body">
+            <div class = "div-left-footer">
+                <div class = "div-left-footer-song-img">
+                    <img class = "left-footer-song-img" src = "playlist-covers/playlist-covers1/Kiwi-cover.PNG">
+                </div>
+                <div class = "div-left-footer-song-description">
+                    <div class = "div-left-footer-song-title">
+                        Kiwi (feat. Juice)
+                    </div>
+                    <div class = "div-left-footer-song-artist">
+                        Quarters of Change
+                    </div>
+                </div>
+                
+                <div class = "div-left-footer-like-button">
+                    <img class = "left-footer-heart-icon" src = "sidebar-icons/heart-icon.png">
+                    <div class = "heart-tag">
+                        Save to Your Library
+                    </div>
+                </div>
+
+            </div>
+
+            <div class = "div-middle-footer">
+                <div class = "div-middle-buttons">
+                    <button class = "middle-playbar-button">
+                        <img class = "middle-playbar-img" src = "footer-icons/shuffle-icon.PNG">
+                    </button>
+                    <button class = "middle-playbar-button">
+                        <img class = "middle-playbar-img" src = "footer-icons/playback-icon.PNG">
+                    </button>
+                    <div class = "middle-play-button-wrap">
+                        <button class = "middle-play-button">
+                            ▶
+                        </button>
+                    </div>
+                    
+                    <button class = "middle-playbar-button">
+                        <img class = "middle-playbar-img" src = "footer-icons/forward-icon.PNG">
+                    </button>
+                    <button class = "middle-playbar-button">
+                        <img class = "middle-playbar-img" src = "footer-icons/loop-icon.PNG">
+                        
+                    </button>
+                </div>
+
+                <div class = "div-middle-time-bar">
+                    0:00
+                    <button class = "middle-footer-time-bar"></button>
+                    <button class = "middle-playbar-hover-button"></button>
+                    5:34
+                </div>
+            </div>
+
+            <div class = "div-right-footer">
+                <div class = "div-lyrics">
+                    <img class = "microphone-img" src = "footer-icons/lyrics-icon.PNG">
+                    <div class = "microphone-tag">
+                        Lyrics
+                    </div>
+                </div>
+                <div class = "div-queue">
+                    <img class = "microphone-img" src = "footer-icons/queue-icon.PNG">
+                    <div class = "queue-tag">
+                        Queue
+                    </div>
+                </div>
+                <div class = "div-device">
+                    <img class = "microphone-img" src = "footer-icons/connect-to-device-icon.PNG">
+                    <div class = "connect-tag">
+                        Connect to a device
+                    </div>
+                </div>
+                <div class = "div-sound">
+                    <img class = "microphone-img" src = "footer-icons/sound-icon.PNG">
+                    <div class = "mute-tag">
+                        Mute
+                    </div>
+                </div>
+                <div class = "div-sound-bar">          
+                    <button class = "sound-bar"></button>
+                    <button class = "sound-bar-white"></button>
+                    <button class = "sound-bar-hover-button"></button>
+                    
+                </div>
+                <div class = "div-picture-in-picture">
+                    <img class = "microphone-img" src = "footer-icons/picture-in-picture-icon.PNG">
+                    <div class = "picture-tag">
+                        Picture in picture
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class = "left-body">
+            <div class = "div-home-search">
+                <div class = "div-Home-button">
+                    <img class = "Home-icon" src = "sidebar-icons/home-icon.png">
+                    <div class ="Home-button-text">Home</div>
+                </div>
+                <div class = "div-Search-button">
+                    <img class = "Search-icon" src = "sidebar-icons/search-icon.png">
+                    <div class = "Search-button-text">Search</div>
+                </div>
+            </div>
+
+            <div class = "div-Your-library">
+
+                <div class = "div-Your-library-header">
+                    <div class = "Your-library-options">
+                        <div class = "div-left-library-header">
+                            <img class = "library-icon" src = "sidebar-icons/library-icon.png">
+                            <div class = "library-icon-text">Your Library</div>
+                            <div class = "library-tag">
+                                Collapse Your Library
+                            </div>
+                        </div>
+                        <div class = "div-right-library-header">
+                            <div class = "div-plus">
+                                <button class = "plus-sign-button">
+                                    <img class = "plus-sign-icon" src = "sidebar-icons/plus-sign-icon.png">
+                                </button>
+                                <div class = "plus-sign-tag">
+                                    Create playlist or folder
+                                </div>
+                            
+                            </div>
+                            <div class = "div-arrow">
+                                <button class = "right-arrow-button">
+                                    <img class = "right-arrow-icon" src = "sidebar-icons/right-arrow-icon.png">
+                                </button>
+                                <div class = "right-arrow-tag">
+                                    Show more
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "Playlist-album-header">
+                        <button class = "Playlist-button">
+                            Playlists
+                        </button>
+                        <button class = "Album-button">
+                            Albums
+                        </button>
+                    </div>
+                </div>
+                
+                <div class = "library-scroll">
+                    <div class = "Your-library-search-header">
+                        <div class = "div-library-header-search">
+                            <button class = "library-header-search-button">
+                                <img class = "library-header-search-icon" src = "sidebar-icons/search-icon.png">
+                            </button>      
+                            <div class = "search-tag">
+                                Search in Your Library
+                            </div>
+                        </div>
+                        <div class = "div-library-header-recents">
+                            Recents
+                        </div>
+                        <div class = "div-library-header-recents-tri">
+                            🞃
+                        </div>
+                        
+                    </div>
+                    
+
+                    <div class = "div-Library-of-playlists">
+                        <div class = "div-playlist-box">
+                            <img class = "library-playlist-cover" src = "playlist-covers/playlist-library-covers/liked-songs-cover.PNG">
+                            <div class = "div-library-playlist-title-description">
+                                <div class = "library-playlist-title">
+                                    Liked Songs
+                                </div>
+                                <div class = "library-playlist-description">
+                                    Playlist • 77 songs
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "div-playlist-box">
+                            <img class = "library-playlist-cover" src = "playlist-covers/playlist-library-covers/god-blessed-riffs-cover.PNG">
+                            <div class = "div-library-playlist-title-description">
+                                <div class = "library-playlist-title-green">
+                                    god-blessed riffs
+                                </div>
+                                <div class = "library-playlist-description">
+                                    Playlist • Natalia P.
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "div-playlist-box">
+                            <img class = "library-playlist-cover" src = "playlist-covers/playlist-library-covers/Aurelia's-cafe-cover.PNG">
+                            <div class = "div-library-playlist-title-description">
+                                <div class = "library-playlist-title">
+                                    Aurelia's Cafe
+                                </div>
+                                <div class = "library-playlist-description">
+                                    Playlist • troyt32
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "div-playlist-box">
+                            <img class = "library-playlist-cover" src = "playlist-covers/playlist-library-covers/infinte-indie-cover.PNG">
+                            <div class = "div-library-playlist-title-description">
+                                <div class = "library-playlist-title">
+                                    infinte indie playlist
+                                </div>
+                                <div class = "library-playlist-description">
+                                    Playlist • troyt32
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "div-playlist-box">
+                            <img class = "library-playlist-cover" src = "playlist-covers/playlist-library-covers/R&b-cover.PNG">
+                            <div class = "div-library-playlist-title-description">
+                                <div class = "library-playlist-title">
+                                    R n Bitches
+                                </div>
+                                <div class = "library-playlist-description">
+                                    Playlist • troyt32
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "div-playlist-box">
+                            <img class = "library-playlist-cover" src = "playlist-covers/playlist-library-covers/IV-cover.PNG">
+                            <div class = "div-library-playlist-title-description">
+                                <div class = "library-playlist-title">
+                                    IV
+                                </div>
+                                <div class = "library-playlist-description">
+                                    Playlist • troyt32
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "div-playlist-box">
+                            <img class = "library-playlist-cover" src = "playlist-covers/playlist-library-covers/Sweet-Dispositions-cover.PNG">
+                            <div class = "div-library-playlist-title-description">
+                                <div class = "library-playlist-title">
+                                    Sweet Dispositions
+                                </div>
+                                <div class = "library-playlist-description">
+                                    Playlist • troyt32
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "div-playlist-box">
+                            <img class = "library-playlist-cover" src = "playlist-covers/playlist-library-covers/the-lemonade-stand-cover.PNG">
+                            <div class = "div-library-playlist-title-description">
+                                <div class = "library-playlist-title">
+                                    the lemonade stand
+                                </div>
+                                <div class = "library-playlist-description">
+                                    Playlist • troyt32
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "div-playlist-box">
+                            <img class = "library-playlist-cover" src = "playlist-covers/playlist-library-covers/flashing-lights-cover.PNG">
+                            <div class = "div-library-playlist-title-description">
+                                <div class = "library-playlist-title">
+                                    flashing lights & euphoric nights
+                                </div>
+                                <div class = "library-playlist-description">
+                                    Playlist • troyt32
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "div-playlist-box">
+                            <img class = "library-playlist-cover" src = "playlist-covers/playlist-library-covers/heartbreak-hotel-cover.PNG">
+                            <div class = "div-library-playlist-title-description">
+                                <div class = "library-playlist-title">
+                                    Heartbreak Hotel
+                                </div>
+                                <div class = "library-playlist-description">
+                                    Playlist • troyt32
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "div-playlist-box">
+                            <img class = "library-playlist-cover" src = "playlist-covers/playlist-library-covers/Before-the-waves-cover.PNG">
+                            <div class = "div-library-playlist-title-description">
+                                <div class = "library-playlist-title">
+                                    Before the Waves
+                                </div>
+                                <div class = "library-playlist-description">
+                                    Album • Magic Man
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "div-playlist-box">
+                            <img class = "library-playlist-cover" src = "playlist-covers/playlist-library-covers/halsey-cover.PNG">
+                            <div class = "div-library-playlist-title-description">
+                                <div class = "library-playlist-title">
+                                    Halsey
+                                </div>
+                                <div class = "library-playlist-description">
+                                    Playlist • Vincent Vu
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "div-playlist-box">
+                            <img class = "library-playlist-cover" src = "playlist-covers/playlist-library-covers/elementary-cover.PNG">
+                            <div class = "div-library-playlist-title-description">
+                                <div class = "library-playlist-title">
+                                    elementary/middle jamz
+                                </div>
+                                <div class = "library-playlist-description">
+                                    Playlist • troyt32
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "div-playlist-box">
+                            <img class = "library-playlist-cover" src = "playlist-covers/playlist-library-covers/chill-cover.PNG">
+                            <div class = "div-library-playlist-title-description">
+                                <div class = "library-playlist-title">
+                                    chill
+                                </div>
+                                <div class = "library-playlist-description">
+                                    Playlist • troyt32
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+        <div class = "right-body">
+            <div class = "div-scroll-body">
+            
+            <div class = "div-for-gradient-body">
+                <div class = "div-header">
+                    <div class = div-left-header>
+                        <button class = "header-arrow">
+                            <
+                        </button>
+                        <button class = "header-arrow">
+                            >
+                        </button>
+                    </div>
+                    <div class = "div-right-header">
+                        <div class = "div-button-container">
+                        <button class = "header-explore-button">
+                            Explore Premium
+                        </button>
+                        </div>
+                    
+                        <div class = "div-button-container2">
+                            <button class = "header-install-button">
+                                Install App
+                            </button>
+                        </div>
+                        <div class = "div-button-container3">
+                            <button class = "header-notification-button">
+                                <img class = "notification-img" src = "sidebar-icons/bell-icon.png">
+                            </button>
+                            <div class = "notification-tag">
+                                What's New
+                            </div>
+                        </div>
+                        <div class = "div-button-container4">
+                            <button class = "header-notification-button">
+                                V
+                            </button>
+                            <div class = "profile-tag">
+                                Vincent Vu
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class = "div-greeting">
+                    Good afternoon
+                </div>
+                <div class = "div-my-playlist">
+                    <div class = "my-playlist">
+                        <img class = "cover" src = "playlist-covers/playlist-covers1/god-blessed-riffs-cover.PNG">
+                        <p class = "my-playlist-title">god-blessed riffs</p>
+                        <button class = "green-button">
+                            ▶
+                        </button>
+                      
+                    </div>
+
+                    <div class = "my-playlist">
+                        <img class = "cover" src = "playlist-covers/playlist-covers1/Aurelia's-cafe-cover.PNG">
+                        <p class = "my-playlist-title">Aurelia's Cafe</p>
+                        <button class = "green-button">
+                            ▶
+                        </button>
+                    </div>
+
+                    <div class = "my-playlist">
+                        <img class = "cover" src = "playlist-covers/playlist-covers1/Kiwi-cover.PNG">
+                        <p class = "my-playlist-title">Kiwi (feat. Juice)</p>
+                        <button class = "green-button">
+                            ▶
+                        </button>
+                    </div>
+
+                    <div class = "my-playlist">
+                        <img class = "cover" src = "playlist-covers/playlist-covers1/infinte-cover.PNG">
+                        <p class = "my-playlist-title">infinte indie playlist</p>
+                        <button class = "green-button">
+                            ▶
+                        </button>
+                    </div>
+
+                    <div class = "my-playlist">
+                        <img class = "cover" src = "playlist-covers/playlist-covers1/Leany's-cover.PNG">
+                        <p class = "my-playlist-title">Leanys</p>
+                        <button class = "green-button">
+                            ▶
+                        </button>
+                    </div>
+
+                    <div class = "my-playlist">
+                        <img class = "cover" src = "playlist-covers/playlist-covers1/mom's-cooking-cover.PNG">
+                        <p class = "my-playlist-title">my moms cooking playlist</p>
+                        <button class = "green-button">
+                            ▶
+                        </button>
+                    </div>
+                        
+                </div>
+                
+                <div class = div-top-mixes-header>
+                    <div class = "div-category-title">
+                        <div class = "category-title">
+                            Your top mixes
+                        </div>
+                    </div>
+                    <div class = "div-show-all">
+                        Show all
+                    </div>
+                </div>
+            </div>
+
+            <div class = "div-your-top-mixes">
+                <div class = "your-top-mixes">
+                    <img class = "your-top-mixes-cover" src = "playlist-covers/playlist-covers2/cig-after-sex-cover.PNG">
+                    <div class = "div-your-top-mixes-title">
+                        Cigarettes After Se...
+                    </div>
+                    <div class = "div-your-top-mixes-description">
+                        Beach House, TV Girl and Vansire
+                    </div>
+                    <button class = "green-button2">
+                        ▶
+                    </button>
+                </div>
+                <div class = "your-top-mixes">
+                    <img class = "your-top-mixes-cover" src = "playlist-covers/playlist-covers2/quarters-cover.PNG">
+                    <div class = "div-your-top-mixes-title">
+                        Quarters of Chang...
+                    </div>
+                    <div class = "div-your-top-mixes-description">
+                       The Backseat Lovers, benches and The Moss
+                    </div>
+                    <button class = "green-button2">
+                        ▶
+                    </button>
+                    
+                </div>
+                <div class = "your-top-mixes">
+                    <img class = "your-top-mixes-cover" src = "playlist-covers/playlist-covers2/chill-mix-cover.PNG">
+                    <div class = "div-your-top-mixes-title">
+                        Chill Mix
+                    </div>
+                    <div class = "div-your-top-mixes-description">
+                        maye, SZA, DaniLeigh and more
+                    </div>
+                    <button class = "green-button2">
+                        ▶
+                    </button>
+                    
+                </div>
+                <div class = "your-top-mixes">
+                    <img class = "your-top-mixes-cover" src = "playlist-covers/playlist-covers2/moody-mix-cover.PNG">
+                    <div class = "div-your-top-mixes-title">
+                        Moody Mix
+                    </div>
+                    <div class = "div-your-top-mixes-description">
+                        Coldplay, Bea Miller, Cigarettes After Sex...
+                    </div>
+                    <button class = "green-button2">
+                        ▶
+                    </button>
+                
+                </div>
+                <div class = "your-top-mixes">
+                    <img class = "your-top-mixes-cover" src = "playlist-covers/playlist-covers2/2010s-mix-cover.PNG">
+                    <div class = "div-your-top-mixes-title">
+                        2010s Mix
+                    </div>
+                    <div class = "div-your-top-mixes-description">
+                        Bruno Mars, Quarters of Change, Foster The...
+                    </div>
+                    <button class = "green-button2">
+                        ▶
+                    </button>
+                    
+                </div>
+                <div class = "your-top-mixes">
+                    <img class = "your-top-mixes-cover" src = "playlist-covers/playlist-covers2/2000s-mix-cover.PNG">
+                    <div class = "div-your-top-mixes-title">
+                        2000s Mix
+                    </div>
+                    <div class = "div-your-top-mixes-description">
+                        Gorillaz, Black Eyed Peas, Coldplay and...
+                    </div>
+                    <button class = "green-button2">
+                        ▶
+                    </button>
+                    
+                </div>
+                <div class = "your-top-mixes">
+                    <img class = "your-top-mixes-cover" src = "playlist-covers/playlist-covers2/R&b-mix-cover.PNG">
+                    <div class = "div-your-top-mixes-title">
+                        R&B Mix
+                    </div>
+                    <div class = "div-your-top-mixes-description">
+                        Jhené Aiko, Kali Uchis, SZA and more
+                    </div>
+                    <button class = "green-button2">
+                        ▶
+                    </button>
+                </div>
+                
+                
+            </div>
+
+            <div class = div-top-mixes-header>
+                <div class = "div-category-title">
+                    <div class = "category-title">
+                        Made For Vincent Vu
+                    </div>
+                    
+                </div>
+                <div class = "div-show-all">
+                    Show all
+                </div>
+                
+            </div>
+
+            <div class = "div-your-top-mixes">
+                <div class = "your-top-mixes">
+                    <img class = "your-top-mixes-cover" src = "playlist-covers/playlist-covers3/Daily-mix-cover.PNG">
+                    <div class = "div-your-top-mixes-title">
+                        Daily Mix 1
+                    </div>
+                    <div class = "div-your-top-mixes-description">
+                        The Strokes, Beach House, Chase Atlantic...
+                    </div>
+                    <button class = "green-button2">
+                        ▶
+                    </button>
+                </div>
+                <div class = "your-top-mixes">
+                    <img class = "your-top-mixes-cover" src = "playlist-covers/playlist-covers3/Daily-mix2-cover.PNG">
+                    <div class = "div-your-top-mixes-title">
+                        Daily Mix 2
+                    </div>
+                    <div class = "div-your-top-mixes-description">
+                       Melanie Martinez, Alesso, Bea Miller and...
+                    </div>
+                    <button class = "green-button2">
+                        ▶
+                    </button>
+                    
+                </div>
+                <div class = "your-top-mixes">
+                    <img class = "your-top-mixes-cover" src = "playlist-covers/playlist-covers3/Daily-mix3-cover.PNG">
+                    <div class = "div-your-top-mixes-title">
+                        Daily Mix 3
+                    </div>
+                    <div class = "div-your-top-mixes-description">
+                        NF, Logic, Alok and more
+                    </div>
+                    <button class = "green-button2">
+                        ▶
+                    </button>
+                    
+                </div>
+                <div class = "your-top-mixes">
+                    <img class = "your-top-mixes-cover" src = "playlist-covers/playlist-covers3/Daily-mix4-cover.PNG">
+                    <div class = "div-your-top-mixes-title">
+                        Daily Mix 4
+                    </div>
+                    <div class = "div-your-top-mixes-description">
+                        Taska Black, Prismo, graves and more
+                    </div>
+                    <button class = "green-button2">
+                        ▶
+                    </button>
+                
+                </div>
+                <div class = "your-top-mixes">
+                    <img class = "your-top-mixes-cover" src = "playlist-covers/playlist-covers3/Daily-mix5-cover.PNG">
+                    <div class = "div-your-top-mixes-title">
+                        Daily Mix 5
+                    </div>
+                    <div class = "div-your-top-mixes-description">
+                        Teflon Sega, PLVTINUM, Always...
+                    </div>
+                    <button class = "green-button2">
+                        ▶
+                    </button>
+                    
+                </div>
+                <div class = "your-top-mixes">
+                    <img class = "your-top-mixes-cover" src = "playlist-covers/playlist-covers3/Daily-mix6-cover.PNG">
+                    <div class = "div-your-top-mixes-title">
+                        Daily Mix 6
+                    </div>
+                    <div class = "div-your-top-mixes-description">
+                        Jack & Jack, Selena Gomez, Ansel Elgort...
+                    </div>
+                    <button class = "green-button2">
+                        ▶
+                    </button>
+                    
+                </div>
+                <div class = "your-top-mixes">
+                    <img class = "your-top-mixes-cover" src = "playlist-covers/playlist-covers3/Discover-weekly-cover.PNG">
+                    <div class = "div-your-top-mixes-title">
+                        Discover Weekly
+                    </div>
+                    <div class = "div-your-top-mixes-description">
+                        Your weekly mixtape of fresh music. Enjoy ne...
+                    </div>       
+                    <button class = "green-button2">
+                        ▶
+                    </button>
+                </div>
+
+            </div>
+
+            <div class = div-top-mixes-header>
+                <div class = "div-category-title">
+                    <div class = "category-title">
+                        Recently played
+                    </div>
+                    
+                </div>
+                <div class = "div-show-all">
+                    Show all
+                </div>
+            </div>
+
+            <div class = "div-your-top-mixes">
+                <div class = "your-top-mixes">
+                    <img class = "your-top-mixes-cover" src = "playlist-covers/playlist-covers4/god-blessed-riffs-cover.PNG">
+                    <div class = "div-your-top-mixes-title">
+                        god-blessed riffs
+                    </div>
+                    <div class = "div-your-top-mixes-description">
+                        don't mind my air-guitar skills
+                    </div>
+                    <button class = "green-button2">
+                        ▶
+                    </button>
+                </div>
+                <div class = "your-top-mixes">
+                    <img class = "artist-cover" src = "playlist-covers/playlist-covers4/travis-scott-cover.jpg">
+                    <div class = "div-your-top-mixes-title">
+                        Travis Scott
+                    </div>
+                    <div class = "div-your-top-mixes-description">
+                       Artist
+                    </div>
+                    <button class = "green-button2">
+                        ▶
+                    </button>
+                    
+                </div>
+                <div class = "your-top-mixes">
+                    <img class = "your-top-mixes-cover" src = "playlist-covers/playlist-covers4/Kiwi-cover.PNG">
+                    <div class = "div-your-top-mixes-title">
+                        Kiwi (feat. Juice)
+                    </div>
+                    <div class = "div-your-top-mixes-description">
+                        Quarters of Change
+                    </div>
+                    <button class = "green-button2">
+                        ▶
+                    </button>
+                    
+                </div>
+                <div class = "your-top-mixes">
+                    <img class = "your-top-mixes-cover" src = "playlist-covers/playlist-covers4/Aurelia's-cafe-cover.PNG">
+                    <div class = "div-your-top-mixes-title">
+                        Aurelia's Cafe
+                    </div>
+                    <div class = "div-your-top-mixes-description">
+                        Via Aurelia, Italia
+                    </div>
+                    <button class = "green-button2">
+                        ▶
+                    </button>
+                
+                </div>
+                <div class = "your-top-mixes">
+                    <img class = "your-top-mixes-cover" src = "playlist-covers/playlist-covers4/infinte-indie-cover.PNG">
+                    <div class = "div-your-top-mixes-title">
+                        infinte indie playlist
+                    </div>
+                    <div class = "div-your-top-mixes-description">
+                        all types of indie you feel
+                    </div>
+                    <button class = "green-button2">
+                        ▶
+                    </button>
+                    
+                </div>
+                <div class = "your-top-mixes">
+                    <img class = "artist-cover" src = "playlist-covers/playlist-covers4/unflirt-cover.jpg">
+                    <div class = "div-your-top-mixes-title">
+                        Unflirt
+                    </div>
+                    <div class = "div-your-top-mixes-description">
+                        Artist
+                    </div>
+                    <button class = "green-button2">
+                        ▶
+                    </button>
+                    
+                </div>
+                <div class = "your-top-mixes">
+                    <img class = "artist-cover" src = "playlist-covers/playlist-covers4/the-marias-cover.PNG">
+                    <div class = "div-your-top-mixes-title">
+                        The Marías
+                    </div>
+                    <div class = "div-your-top-mixes-description">
+                        Artist
+                    </div>       
+                    <button class = "green-button2">
+                        ▶
+                    </button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>

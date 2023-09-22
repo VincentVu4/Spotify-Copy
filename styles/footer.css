@@ -1,0 +1,292 @@
+.footer-body{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    height: 88px;
+    bottom: 0;
+    z-index: 100;
+    color: white;
+    margin-left: -8px;
+    
+}
+
+.div-left-footer{
+    display: flex;
+    flex: 1;
+   
+    padding-left: 16px;
+    min-width: 235px;
+}
+.div-left-footer-song-img{
+    display: flex;
+    align-items: center;
+    
+}
+.div-left-footer-song-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.left-footer-song-img{
+    height: 55px;
+    width: 56px;
+    border-radius: 4px;
+}
+.left-footer-song-img,
+.div-left-footer-song-title,
+.div-left-footer-song-artist{
+    font-family: Roboto;
+    cursor: pointer;
+}
+
+.div-left-footer-song-title{
+    color: white;
+    
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.div-left-footer-song-artist{
+    color: rgb(177, 175, 175);
+    font-size: 11px;
+}
+
+.div-left-footer-song-title:hover,
+.div-left-footer-song-artist:hover{
+    text-decoration: underline;
+}
+
+.div-left-footer-like-button{
+    display: flex;
+    align-items: center;
+}
+.left-footer-heart-icon{
+    height: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+.div-middle-footer{
+    display: flex;
+    flex: 5;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 13px;
+    padding-bottom: 5px;
+    min-width: 350px;
+}
+
+.div-middle-buttons{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+    width: 220px;
+}
+
+.middle-play-button{
+    width: 32px;
+    height: 32px;
+    border: none;
+    border: none;
+    border-radius: 100%;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    padding-left: 9px;
+}
+
+.middle-play-button-wrap{
+    display: flex;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    padding-left: 2px;
+}
+.middle-play-button:hover{
+    transform: scale(1.05);
+}
+
+
+.middle-playbar-button{
+    position: relative;
+    height: 23px;
+    width: 23px;
+    border: none;
+    background-color: black;
+}
+
+.middle-playbar-img{
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 20px;
+    width: 22px; 
+}
+
+
+.div-middle-time-bar{
+    position: relative;
+    display: flex;
+    flex: 1;
+    width: 100%;
+    min-width: 220px;
+    max-width: 690px;
+    align-items: center;
+    font-size: 11px;
+    font-family: Roboto;
+    font-weight: 400;
+    color: rgb(177, 175, 175);
+    height: 1px;
+   
+    
+}
+
+.middle-footer-time-bar {
+    height: 4px;
+    width: 100%;
+    min-width: 220px;
+    max-width: 690px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(97, 97, 97);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.middle-playbar-hover-button {
+    position: absolute;
+    top: 11px;
+    left: 23px;
+    width: 5px;
+    height: 12px;
+    border: none;
+    border-radius: 100%;
+    background-color: transparent;
+}
+
+.middle-footer-time-bar:hover + .middle-playbar-hover-button {
+    background-color: white;
+}
+
+.div-right-footer{
+    position: relative;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 275px;
+}
+
+.div-sound-bar{
+    position: relative;
+    
+    margin-top: -12px;
+}
+
+.sound-bar{
+    width: 95px;
+    height: 4px;
+    background-color: rgb(97, 97, 97);
+    border: none;
+    border-radius: 4px;;
+}
+
+.sound-bar-white{
+    position: absolute;
+    top: 11px;
+    left: 0px;
+    width: 90px;
+    height: 4px;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.sound-bar-hover-button {
+    position: absolute;
+    top: 7px;
+    left: 85px;
+    width: 5px;
+    height: 12px;
+    border: none;
+    border-radius: 100%;
+    background-color: transparent;
+}
+
+.sound-bar:hover + .sound-bar-white{
+    background-color: #1ED760;
+}
+
+.sound-bar-white:hover{
+    background-color: #1ED760;
+}
+
+.div-sound-bar .sound-bar-white:hover + .sound-bar-hover-button,
+.div-sound-bar .sound-bar:hover + .sound-bar-hover-button {
+    background-color: white;
+}
+
+.div-lyrics,
+.div-queue,
+.div-picture-in-picture{
+    cursor: pointer;
+}
+
+.heart-tag,
+.microphone-tag,
+.queue-tag,
+.connect-tag,
+.mute-tag,
+.picture-tag{
+    position: absolute;
+    top: -10px;
+    background-color: transparent;
+    color: transparent;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: Roboto;
+    padding: 6px 8px 6px 8px;
+    user-select: none;
+}
+
+.left-footer-heart-icon:hover + .heart-tag,
+.microphone-img:hover + .microphone-tag,
+.microphone-img:hover + .queue-tag,
+.microphone-img:hover + .connect-tag,
+.microphone-img:hover + .mute-tag,
+.microphone-img:hover + .picture-tag{
+    background-color: rgb(39, 39, 39);
+    color: white;
+    transition: background-color 0.5s, color 0.5s;
+    transition-delay: 0.2s;
+}
+
+.heart-tag{
+    left: 150px;
+}
+.microphone-tag{
+    left: -5px;
+}
+
+.queue-tag{
+    left: 20px;
+}
+
+.connect-tag{
+    left: 14px;
+}
+
+.mute-tag{
+    left: 88px;
+}
+
+.picture-tag{
+    right: 10px;
+}

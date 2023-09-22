@@ -1,0 +1,97 @@
+.div-your-top-mixes{
+    display: grid;
+    padding-top: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-left: 30px;
+
+}
+
+.your-top-mixes{
+    position: relative;
+    background-color: rgb(25, 25, 25);
+    border-radius: 6px;
+    height: 275px;
+    width: 190px;
+    color: white;
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+
+.your-top-mixes:hover{
+    background-color: rgb(37, 37, 37);
+    transition: background-color 0.3s;
+}
+.your-top-mixes:hover .green-button2{
+    background-color:#1ED760;
+    color: black;
+    transform: translateY(-5px);
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    
+}
+
+.artist-cover,
+.your-top-mixes-cover{
+    height: 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 20px;
+}
+
+.artist-cover{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    
+}
+
+.div-your-top-mixes-title{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Roboto;
+}
+
+.div-your-top-mixes-description{
+    line-height: 25px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 14px;
+    font-family: Roboto;
+    color: rgb(177, 175, 175);
+}
+
+.green-button2{
+    position: absolute;
+    bottom: 115px;
+    right: 27px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    padding-left: 10px;
+    background-color: transparent;
+    color: transparent;
+    font-size: 16px;
+    border-radius: 100%;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.green-button2:hover{
+    width: 52px;
+    height: 52px;
+    font-size: 25px;
+    bottom: 114px;
+    right: 26px;
+}
+
+.green-button2:active{
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    right: 27px;
+    bottom: 115px;
+    background-color: #19af4e !important;
+    transition: none !important;
+}
